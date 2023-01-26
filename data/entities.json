@@ -1,6 +1,6 @@
 {
   [
-  {"id": 001, 
+  {"id": 1, 
   "class": "safe", 
   "unit": ["unexplained"], 
   "description": "Description: Entity 001 is a headless male german shepherd weighing 90 pounds on average. Classified as Safe for having no dangerous properties. While the dog has no eyes, he still acts as if he does. 001's age cannot be determined, and it cannot age completely. Procedures: 001 does not require any food or water. Doesn't require a containment chamber and can maneuver around the facility if he'd like to. Do not attempt to feed 001, as it will aggravate him.",
@@ -12,7 +12,7 @@
   "location": null,
   "symptoms": null
   },
-  {"id": 002,
+  {"id": 2,
   "class": "hazardous",
   "unit": ["terminated"],
   "description": "TERMINATED",
@@ -24,7 +24,7 @@
   "location": null,
   "symptoms": null
   },
-  {"id": 003,
+  {"id": 3,
   "class": "safe",
   "unit": ["cognitohazard"],
   "description": "003 is a rusty mining helmet that has an unactive flashlight attached above the brim. Procedures: Upon viewing the object, the subject will experience an awkward memory from their past. Upon viewing again, no events will happen. Contained within Site-31, this holds as to one of the most absurd items contained within our walls.",

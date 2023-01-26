@@ -69,5 +69,8 @@ def pannel():
 @app.route('/entities')
 def entities():
   return render_template('listing.html')
+@app.route('/entities/{id}')
+def returnE(eID):
+  return render_template('') # TESTING | NOTHING YET
   
 app.run(host='0.0.0.0', port=8080, debug=True)
