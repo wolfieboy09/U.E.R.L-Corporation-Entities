@@ -28,15 +28,15 @@ def handle():
     privateCode = request.args.get("privateCode")
     if privateCode == None:
         return "Bad Request", 400
-
     resp = get(f"https://auth.itinerary.eu.org/api/auth/verifyToken?privateCode={privateCode}").json()
+    return f"Exception Raised: {e}"
     if resp["redirect"] == f"{SELF_URL_AUTH}":
         if resp["valid"]:
             session["username"] = resp["username"]
             return redirect("/")
         else:
             return "Authentication failed - please try again later."
-    else:
+     else:
         return "Invalid Redirect", 400
 
 def getRank(user):
@@ -58,7 +58,7 @@ def under():
 @app.route('/test')
 def test():
   return render_template('entities/030.html')
-
+jkshdfsjfhjdskjafs
 @app.route('/pannel')
 def pannel():
   if underConstruction is True:
@@ -71,6 +71,6 @@ def entities():
   return render_template('listing.html')
 @app.route('/entities/{id}')
 def returnE(eID):
-  return render_template('') # TESTING | NOTHING YET
+  return f"REQUESTED: {eID}" # TESTING | NOTHING YET
   
 app.run(host='0.0.0.0', port=8080, debug=True)
