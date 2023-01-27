@@ -2,12 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='templates/work.css') }}">
+
     <title>U.E.R.L Entities Listing</title>
   </head>
   <body>
     <div class="listing">
       {% for entity in entitys%}
-        <p>ENTITY-{{ entity["id"] }}</p><br>
+        {% if entity['classified'] == False %}
+          <b><p class="normal">ENTITY-{{ entity["id"] }}</p></b>
+        {% endif %}
+        {% if entity['classified'] == True %}
+          <b><p class="classified">ENTITY-{{ entity["id"] }} [CLASSIFIED]</p></b>
       {% endfor %}
     </div>
   </body>
