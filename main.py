@@ -65,12 +65,12 @@ def pannel():
   return render_template('ent.html', username=username)
 
 @app.route('/entities/{id}')
-def loadEntity(eID):
-  return f"REQUESTED: {eID}" # TESTING | NOTHING YET
+def loadEntity(id):
+  return f"REQUESTED: {id}" 
   
 @app.route('/entities', methods=['GET', 'POST'])
 def entities():
   return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": True, "id":2}])
-  
 
-app.run(host='0.0.0.0', port=8080, debug=False)
+
+app.run(host='0.0.0.0', port=4313, debug=True)
