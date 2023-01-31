@@ -66,7 +66,7 @@ def pannel():
 
 @app.route('/entities')
 def entities():
-  return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": False, "id":2}])
+  return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": True, "id":2}])
   
 @app.route('/entities/{id}')
 def returnE(eID):
