@@ -3,11 +3,11 @@
   {"id": 1, 
   "class": "safe", 
   "unit": ["unexplained"], 
-  "description": "Description: Entity 001 is a headless male german shepherd weighing 90 pounds on average. Classified as Safe for having no dangerous properties. While the dog has no eyes, he still acts as if he does. 001's age cannot be determined, and it cannot age completely. Procedures: 001 does not require any food or water. Doesn't require a containment chamber and can maneuver around the facility if he'd like to. Do not attempt to feed 001, as it will aggravate him.",
+  "description": "Description: Entity 001 is a headless male german shepherd weighing 90 pounds on average. Classified as Safe for having no dangerous properties. While the dog has no eyes, he still acts as if he does. 001's age cannot be determined, and it cannot age completely.",
   "foundOn": "December 1st, 1995",
   "classified": false,
   "name": null,
-  "procedure": null,
+  "procedure": "001 does not require any food or water. Doesn't require a containment chamber and can maneuver around the facility if he'd like to. Do not attempt to feed 001, as it will aggravate him.",
   "edit": null,
   "location": null,
   "symptoms": null

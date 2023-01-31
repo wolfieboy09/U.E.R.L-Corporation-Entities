@@ -9,3 +9,13 @@
 html, body{
   background-color: black;
 }
+
+/*
+This is to show a red 
+box saying that JS is disabled
+*/
+.no-js{
+  position: sticky;
+  border-color: red;
+  border: 50px;
+}
