@@ -1,0 +1,11 @@
+.public{
+  color: white;
+}
+
+.classified{
+  color: red;
+}
+
+html, body{
+  background-color: black;
+}

@@ -11,7 +11,6 @@ underConstruction = True
 SELF_URL_AUTH = 'https://uerl-corperation-entities-listing.wolfieboy09.repl.co/authenticate'
 
 app = Flask(__name__)
-app.secret_key = environ["SECRET_KEY"]
 
 def base64(string):
     return b64encode(string.encode("utf-8")).decode()
@@ -29,14 +28,13 @@ def handle():
     if privateCode == None:
         return "Bad Request", 400
     resp = get(f"https://auth.itinerary.eu.org/api/auth/verifyToken?privateCode={privateCode}").json()
-    return f"Exception Raised: {e}"
     if resp["redirect"] == f"{SELF_URL_AUTH}":
         if resp["valid"]:
             session["username"] = resp["username"]
             return redirect("/")
         else:
             return "Authentication failed - please try again later."
-     else:
+    else:
         return "Invalid Redirect", 400
 
 def getRank(user):
@@ -58,7 +56,7 @@ def under():
 @app.route('/test')
 def test():
   return render_template('entities/030.html')
-jkshdfsjfhjdskjafs
+
 @app.route('/pannel')
 def pannel():
   if underConstruction is True:
@@ -68,9 +66,10 @@ def pannel():
 
 @app.route('/entities')
 def entities():
-  return render_template('listing.html')
+  return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": False, "id":2}])
+  
 @app.route('/entities/{id}')
 def returnE(eID):
   return f"REQUESTED: {eID}" # TESTING | NOTHING YET
   
-app.run(host='0.0.0.0', port=8080, debug=True)
+app.run(host='0.0.0.0', port=8080, debug=False)

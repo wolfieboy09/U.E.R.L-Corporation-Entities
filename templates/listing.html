@@ -3,17 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='templates/list.css') }}">
-
     <title>U.E.R.L Entities Listing</title>
   </head>
   <body>
     <div class="listing">
       {% for entity in entitys%}
         {% if entity['classified'] == False %}
-          <b><p class="normal">ENTITY-{{ entity["id"] }}</p></b>
-        {% endif %}
-        {% if entity['classified'] == True %}
-          <b><p class="classified">ENTITY-{{ entity["id"] }} [CLASSIFIED]</p></b>
+          <p class="public" herf="/entity/{{ entity['id'] }}">ENTITY-{{ entity["id"] }}</p></b>
+        {% else %}
+          <p class="classified" herf="/entity/{{ entity['id'] }}">ENTITY-{{ entity["id"] }} [CLASSIFIED]</p></b>
         {% endif %}
       {% endfor %}
     </div>

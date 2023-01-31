@@ -1,7 +1,16 @@
 {
-  "admin": ["Wolfieboy09", "memed_kid"],
-  "studio": {
-    "managers": ["ElectroScienceInc"],
-    "curators": ["memed_kid", "Wolfieboy09", "reepersons", "scratch_creator0805", "GalleonsAndGators", "fusioncrazy17", "kingofdogs200", "-SCP-MissionFiles", "MILITARY_WOLF", "Doommarine1993", "127321jbhfhs", "jmisalol005", "Acoregamelover"] 
-  }
+  "clearance":[
+    {"users": ["Acoregamelover", "jmisalol005", "Doommarine1993", "MILITARY_WOLF", "-SCP-MissionFiles", "kingofdogs200"]},
+    {"users": ["fusioncrazy17", "scratch_creator0805"]},
+    {"users": ["GalleonsAndGators", "Wolfieboy09", "127321jbhfhs"]},
+    {"users": [null]},
+    {"users": [null]},
+    {"users": ["reepersons"]},
+    {"users": ["memed_kid", "ElectroScienceInc"]},
+    {"users": ["GalleonsAndGators"]},
+    {"users": [null]},
+    {"users": ["reepersons", "memed_kid", "ElectroScienceInc"]}
+  ],
+  "levels":[0,1,2,3,4,5,6,"B","A","X"],
+  "classified": 4
 }
