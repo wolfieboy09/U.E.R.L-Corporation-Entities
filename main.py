@@ -64,12 +64,13 @@ def pannel():
     username = session["username"]
   return render_template('ent.html', username=username)
 
-@app.route('/entities')
+@app.route('/entities/{id}')
+def loadEntity(eID):
+  return f"REQUESTED: {eID}" # TESTING | NOTHING YET
+  
+@app.route('/entities', methods=['GET', 'POST'])
 def entities():
   return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": True, "id":2}])
   
-@app.route('/entities/{id}')
-def returnE(eID):
-  return f"REQUESTED: {eID}" # TESTING | NOTHING YET
-  
+
 app.run(host='0.0.0.0', port=8080, debug=False)

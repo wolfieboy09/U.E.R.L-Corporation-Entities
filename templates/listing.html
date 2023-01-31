@@ -8,16 +8,15 @@
   <body>
     <div class="listing">
       {% for entity in entitys%}
-        <br>
         <div class="entity" >
           {% if entity['classified'] == False %}
-            <a class="public" herf="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }}</a>
+            <p><a class="public" href="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }}</a></p>
           {% else %}
-            <p></p><a class="classified" herf="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }} [CLASSIFIED]</a></p>
+            <p><a class="classified" href="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }} [CLASSIFIED]</a></p>
           {% endif %}
       {% endfor %}
       </div>
     </div>
+    <noscript class="no-js">Javascript is Disabled!</noscript>
   </body>
-  <noscript class="no-js">Javascript is Disabled!</noscript>
 </html>
