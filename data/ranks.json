@@ -1,9 +1,9 @@
 {
   "clearance":[
     {"users": ["Acoregamelover", "jmisalol005", "Doommarine1993", "MILITARY_WOLF", "-SCP-MissionFiles", "kingofdogs200"]},
-    {"users": ["fusioncrazy17", "scratch_creator0805"]},
-    {"users": ["GalleonsAndGators", "Wolfieboy09", "127321jbhfhs"]},
-    {"users": [null]},
+    {"users": ["scratch_creator0805"]},
+    {"users": ["Wolfieboy09"]},
+    {"users": ["GalleonsAndGators", "127321jbhfhs", "fusioncrazy17"]},
     {"users": [null]},
     {"users": ["reepersons"]},
     {"users": ["memed_kid", "ElectroScienceInc"]},
@@ -12,5 +12,6 @@
     {"users": ["reepersons", "memed_kid", "ElectroScienceInc"]}
   ],
   "levels":[0,1,2,3,4,5,6,"B","A","X"],
-  "classified": 4
+  "classified": 4,
+  "timesUpdated": 3
 }

@@ -73,7 +73,8 @@ def getEntities():
 
 @app.route('/entities/<id>')
 def loadEntity(id):
-  return render_template('ent.html', requested=id, username=session["username"])
+  #rank = getRank(session["username"])
+  return render_template('ent.html', requested=id)
   
 @app.route('/entities', methods=['GET', 'POST'])
 def entities():
@@ -81,6 +82,6 @@ def entities():
 
 @app.errorhandler(404)
 def e404(error):
-  return render_template('errors/404.html')
+  return render_template('404.html')
 
-app.run(host='0.0.0.0', port=4313, debug=True)
+app.run(host='0.0.0.0', port=4313, debug=False)

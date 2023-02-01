@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='templates/list.css') }}">
     <title>U.E.R.L Entities Listing</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon.ico">
   </head>
   <body>
     <div class="listing">
-      {% for entity in entitys%}
+      {% for entity in entitys %}
         <div class="entity" >
           {% if entity['classified'] == False %}<p><a class="public" href="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }}</a></p>{% else %}<p><a class="classified" href="/entities/{{ entity['id'] }}">ENTITY-{{ entity["id"] }} [CLASSIFIED]</a></p>{% endif %}</div>{% endfor %}
     </div>
