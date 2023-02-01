@@ -1,0 +1,15 @@
+html, body{
+  color: black;
+}
+
+text{
+  color: #00b91f;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.flask-message{
+  color: red;
+}

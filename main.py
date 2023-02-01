@@ -11,6 +11,7 @@ underConstruction = True
 SELF_URL_AUTH = 'https://uerl-corperation-entities-listing.wolfieboy09.repl.co/authenticate'
 
 app = Flask(__name__)
+app.secret_key = environ["SECRET_KEY"]
 
 def base64(string):
     return b64encode(string.encode("utf-8")).decode()
@@ -36,6 +37,7 @@ def handle():
             return "Authentication failed - please try again later."
     else:
         return "Invalid Redirect", 400
+
 
 def getRank(user):
   with open('data/ranks.json', 'r') as f:
@@ -64,13 +66,21 @@ def pannel():
     username = session["username"]
   return render_template('ent.html', username=username)
 
-@app.route('/entities/{id}')
+
+def getEntities():
+  with open('data/entities.json', 'r') as f:
+    return json.load(f)
+
+@app.route('/entities/<id>')
 def loadEntity(id):
-  return f"REQUESTED: {id}" 
+  return render_template('ent.html', requested=id, username=session["username"])
   
 @app.route('/entities', methods=['GET', 'POST'])
 def entities():
-  return render_template('listing.html', entitys=[{"classified": False, "id":1},{"classified": True, "id":2}])
+  return render_template('listing.html', entitys=getEntities())
 
+@app.errorhandler(404)
+def e404(error):
+  return render_template('errors/404.html')
 
 app.run(host='0.0.0.0', port=4313, debug=True)

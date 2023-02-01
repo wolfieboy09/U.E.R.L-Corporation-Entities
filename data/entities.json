@@ -1,5 +1,4 @@
-{
-  [
+[
   {"id": 1, 
   "class": "safe", 
   "unit": ["unexplained"], 
@@ -39,7 +38,7 @@
   {"id": 4,
   "class": "?",
   "unit": ["?"],
-  "description": "04, nicknamed the The Cold Devils are a sentient species that prefers to live in cold temperatures. 004 has no eyes, is about 7 feet when standing upwards, and its skin color is red. The entity may have no eyes but it can see you and smell you. It has bullet proof skin on it and runs on four legs and catches its prey with its tail and then rips you to shreds, but it will always toy with its prey and will make the prey bleed as it and the others of its species attempt to consume the victim. When a pack of 004s sees you, they will decide who will catch it first and it can speak to you. If it is not hungry, they will become docile, but if 004 becomes hungry it will kill anyone. But, what makes it the most dangerous is that if you get cut by the tail and stay alive for 30 minutes you will turn into one of the entities and lose the person you once were."
+  "description": "04, nicknamed the The Cold Devils are a sentient species that prefers to live in cold temperatures. 004 has no eyes, is about 7 feet when standing upwards, and its skin color is red. The entity may have no eyes but it can see you and smell you. It has bullet proof skin on it and runs on four legs and catches its prey with its tail and then rips you to shreds, but it will always toy with its prey and will make the prey bleed as it and the others of its species attempt to consume the victim. When a pack of 004s sees you, they will decide who will catch it first and it can speak to you. If it is not hungry, they will become docile, but if 004 becomes hungry it will kill anyone. But, what makes it the most dangerous is that if you get cut by the tail and stay alive for 30 minutes you will turn into one of the entities and lose the person you once were.",
   "foundOn": "June 2nd, 1974",
   "classified": false,
   "name": "The Cold Devils",
@@ -55,7 +54,7 @@
   "foundOn": "December 1st, 1959",
   "classified": false,
   "name": null,
-  "procedure": "When the box is interacted with, it will take the form of the users favorite cereal, if the user doesn't have a favorite cereal, it will be random. Once the box is opened and poured into a boul, the box will reform into a white carboard box until interacted again."
+  "procedure": "When the box is interacted with, it will take the form of the users favorite cereal, if the user doesn't have a favorite cereal, it will be random. Once the box is opened and poured into a boul, the box will reform into a white carboard box until interacted again.",
   "edit": null,
   "location": null,
   "symptoms": null
@@ -67,7 +66,7 @@
   "foundOn": "June 12, 2004",
   "classified": false,
   "name": null,
-  "procedure": "Due to the nature of the entity, it cannot be contained, as when it is taken into containment it will immediately be transported via anomalous means to a random bookstore in New York."
+  "procedure": "Due to the nature of the entity, it cannot be contained, as when it is taken into containment it will immediately be transported via anomalous means to a random bookstore in New York.",
   "edit": null,
   "location": "New York City, New York",
   "symptoms": null
@@ -79,7 +78,7 @@
   "foundOn": "November 13, 1879",
   "classified": false,
   "name": null,
-  "procedure": "When this object is seen, the object enters the deep mind of the subject and is seen over and over again at random as a hallucination."
+  "procedure": "When this object is seen, the object enters the deep mind of the subject and is seen over and over again at random as a hallucination.",
   "edit": null,
   "location": "New York City, New York",
   "symptoms": "panic attacks, paralyzing, and severe trauma. Symptoms may result in death after a few days. Average is 6 days."
@@ -91,10 +90,9 @@
   "foundOn": "September 7th 1985",
   "classified": false,
   "name": null,
-  "procedure": "Containment of Entity-008, which has been found in Norilsk, Russia and Rendville, OH, requires a multi-faceted approach. A secure perimeter must be established around the area where the entity has been trapped in both towns, with armed guards patrolling the area to prevent unauthorized access. The perimeter should be equipped with motion sensors and surveillance cameras to detect and deter breaches. All communication devices within the perimeter must be monitored and restricted to prevent unauthorized access or the spread of information about Entity-008. All information about Entity-008 must be classified and restricted to authorized personnel only, and any unauthorized disclosure of information must be dealt with immediately. To maintain secrecy, the perimeter must be disguised and made to look like a standard construction site, and false reports must be made to local authorities and the public to explain the presence of the containment. In the event of a containment breach, protocols must be in place to quickly and effectively contain Entity-008 and prevent it from harming the public. Regular monitoring must be done to ensure that Entity-008 is not roaming outside the perimeter and to track any new sightings in both towns."
+  "procedure": "Containment of Entity-008, which has been found in Norilsk, Russia and Rendville, OH, requires a multi-faceted approach. A secure perimeter must be established around the area where the entity has been trapped in both towns, with armed guards patrolling the area to prevent unauthorized access. The perimeter should be equipped with motion sensors and surveillance cameras to detect and deter breaches. All communication devices within the perimeter must be monitored and restricted to prevent unauthorized access or the spread of information about Entity-008. All information about Entity-008 must be classified and restricted to authorized personnel only, and any unauthorized disclosure of information must be dealt with immediately. To maintain secrecy, the perimeter must be disguised and made to look like a standard construction site, and false reports must be made to local authorities and the public to explain the presence of the containment. In the event of a containment breach, protocols must be in place to quickly and effectively contain Entity-008 and prevent it from harming the public. Regular monitoring must be done to ensure that Entity-008 is not roaming outside the perimeter and to track any new sightings in both towns.",
   "edit": null,
   "location": null,
   "symptoms": null
   }
-  ]
-}
+]
